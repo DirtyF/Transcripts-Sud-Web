@@ -1,10 +1,26 @@
 # Transcripts Sud Web 2012
 
-- Vendre des prestations agiles par Thibault Jouannic
+- Mais un lead dev, c’est quoi ? (Brice Favre)
+- L’Open Web en tant que pierre angulaire du développement multi-objets (Thomas Bassetto)
+- Vendre des prestations agiles (Thibault Jouannic)
+- Ne perdez plus votre temps, testez vos idées en quelques heures ! (Camille Roux)
+- From service provider to software vendor (Rachel Andrew)
+- Oh, IE6, how we loved you. (Bruce Lawson)
+- Mozilla Developer Network : documenter le web ouvert (Jérémie Patonnier)
+- Mise en place d’une stratégie de performance web en entreprise (Boris Shapira)
+- Le naufrage du Vasa (Mathieu Pillard)
+- Comment utiliser et abuser du web pour prendre de vitesse le marché de la musique (Andrew Richards)
+- Le test du recruteur (Xavier Mouton-Dubosc)
+- Le Web au doigt et à l’œil avec CasperJS (Nicolas Perriault)
+- L’icône anonyme (Anne Onymous)
+- Open web, le combat continue (Nicolas Hoffmann)
+- CSS3 with a safety net (Peter Gasston)
+- Intégrateur, lève-toi et conçois ! (Bertrand Keller)
+- L’altruisme pour votre bénéfice (Anthony Ricaud)
 
 ## License
 
-> Copyright (C) 2012 Sud Web
+> Copyright © 2012 Sud Web
 >
 > This program is free software: you can redistribute it and/or modify
 > it under the terms of the GNU General Public License as published by
