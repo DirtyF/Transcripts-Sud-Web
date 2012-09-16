@@ -1,6 +1,6 @@
 Nicolas Perriault - Casper JS
 
-Bonjour, wouh, salut tout le monde, je vais vous parler de Casper "jaïïïesse", CasperJS pour les francophones, qui est donc un petit toolkit de … alors qui permet de gérer le web au doigt et à l'oeil, voilà merci pour le spoil tout à l'heure, 
+Bonjour, wouh, salut tout le monde, je vais vous parler de Casper "djaïïïesse", CasperJS pour les francophones, qui est donc un petit toolkit de … alors qui permet de gérer le web au doigt et à l'oeil, voilà merci pour le spoil tout à l'heure, 
 
 Voilà qui est basé sur PhantomJS, qui est une brique open-source qui est un navigateur, donc un navigateur web, en mode headless, c'est à dire qui se pilote sans interface graphique, en ligne de commande par exemple, pour être automatisé sur des systèmes, sur des serveurs qui n'ont pas d'écran, etc.
 
@@ -10,7 +10,7 @@ Javascript on en entend beaucoup parler, un petit peu à tort et à travers, en 
 
 En tout cas Phantom est un logiciel qui exploite uniquement une API Javascript. Donc voici un script Phantom, alors ouais j'suis pas sur qu'on voit grand chose, j'suis un petit peu navré. 
 
-Voilà donc en gros cette API Javascript permet par exemple de créer un objet qui est une page web, d'ouvrir donc une URL, par exemple http://www.google.fr et une fois qu'on a reçu la réponse du serveur de Google avec le code HTML, on peut faire une certain nombre de choses, par exemple checker que tout s'est bien passé et qu'il n'y a pas eu d'erreur. Et ensuite faire des assertions, etc.
+Voilà donc en gros cette API Javascript permet par exemple de créer un objet, une instance d'objet qui est une page web, d'ouvrir donc une URL, par exemple http://www.google.fr et une fois qu'on a reçu la réponse du serveur de Google avec le code HTML, on peut faire une certain nombre de choses, par exemple checker que tout s'est bien passé et qu'il n'y a pas eu d'erreur. Et ensuite faire des assertions, etc.
 
 On lance le script et on obtient le résultat du script qui était d'afficher le contenu texte de la balise <title>. 
 
@@ -20,15 +20,15 @@ Donc vous voyez on pilote vraiment un navigateur web en ligne de commande et en 
 
 Mais on a un petit problème avec PhantomJS quand même , parce que c'est une super lib' mais comment on clique, comment on interagit avec la page, comment on enchaîne les interactions, simplement, facilement, et surtout comment on vérifie des trucs et éventuellement d'où vient le vent mais ça je n'y répondrai pas.
 
-Un petit détour en Egypte avec … les pyramides de l'enfer. Qu'est-ce que c'est que les pyramides de l'enfer, c'est la gestion de la synchronicité en Javascript, je sais pas si vous avez … ça s'adresse surtout aux codeurs …  mais vous avez tous rencontré ça théoriquement à un moment ou à un autre, on a des fonctions qui passent en argument des callbacks, tout ça s'enchaîne, il faut attendre le résultat de l'appel précédent pour décider de ce qu'on fait ensuite.
+Un petit détour en Egypte avec … les pyramides de l'enfer. Qu'est-ce que c'est que les pyramides de l'enfer, c'est la gestion de l'asynchronicité en Javascript, je sais pas si vous avez … ça s'adresse surtout aux codeurs …  mais vous avez tous rencontré ça théoriquement à un moment ou à un autre, on a des fonctions qui passent en argument des callbacks, tout ça s'enchaîne, il faut attendre le résultat de l'appel précédent pour décider de ce qu'on fait ensuite.
 
 Donc ça, ça fait des choses qui partent vers la droite, et tout ce qui part vers la droite n'est pas maintenable. (rires)
 
 Alors … c'est là qu'arrive CasperJS (applaudissements) 
 
-CasperJS va essayer de répondre à un certain nombre de problématiques qui sont posés par Phantom en terme d'ergonomie, d'utilisabilité du code, etc. et donc c'est bien évidemment basé sur PhantomJS, et propose une API haut niveau, par dessus, qui va simplifier cette fameuse gestion de la synchronicité, des méthodes pour interagir avec la page, créer des scénarios de navigation, et effectivement tester des sites web, parce que c'est peu ça aussi un des objectifs. 
+CasperJS va essayer de répondre à un certain nombre de problématiques qui sont posés par Phantom en terme d'ergonomie, d'utilisabilité du code, etc. et donc c'est bien évidemment basé sur PhantomJS, et propose une API haut niveau, par dessus, qui va simplifier cette fameuse gestion de l'asynchronicité, des méthodes pour interagir avec la page, créer des scénarios de navigation, et effectivement tester des sites web, parce que c'est peu ça aussi un des objectifs. 
 
-Donc au niveau de la synchronicité, voilà on a tout ferré à gauche, ça marche. Et voilà on a un petit Event Listener, c'est l'équivalent du script PhantomJS, que je vous ai affiché tout à l'heure, ça fait exactement la même chose, c'est-à-dire qu'on ne se prend plus la tête avec des callbacks, des callbacks, des callbacks, on les enchaîne très simplement avec une API qui semble d' utilisation très naturelle. 
+Donc au niveau de l'asynchronicité, voilà on a tout ferré à gauche, ça marche. Et voilà on a un petit eventListener, c'est l'équivalent du script PhantomJS, que je vous ai affiché tout à l'heure, ça fait exactement la même chose, c'est-à-dire qu'on ne se prend plus la tête avec des callbacks, des callbacks, des callbacks, on les enchaîne très simplement avec une API qui semble d' utilisation très naturelle. 
 
 Au niveau des clics c'est pareil, on a une méthode qu'on voit pas à l'écran mais qui s'appelle Click et qui permet de prendre en argument un sélecteur CSS, et depuis deux semaines un sélecteur XPath éventuellement, pour dire je veux cliquer sur tel bouton, on lance le script et on obtient les mêmes résultats qu'avec PhantomJS. 
 
