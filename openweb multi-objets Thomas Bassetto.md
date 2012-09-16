@@ -70,4 +70,88 @@ device.js l'idée est assez intéressante, c'est à dire que dans le code HTML v
 
 Dans chaque famille, je vous conseille d'utiliser un framework, pas forcément de réinventer la roue, malheureusement beaucoup de frameworks ne s'intéressent qu'au mobile, jQuery Mobile, Sencha Touch 2, Kendo UI Mobile, il y a bien que Jo qui est pas assez connu qui fait un peu plus que ça, qui fait plus de devices. Donc au final nous n'utilisons pas trop ce genre de framework, sauf pour la famille des mobiles, des frameworks qui ne vous proposent pas de composants UI, il existe backbone.js, Ember, Ender et Zepto, les deux premiers sont les plus connus, je vous conseille de les utiliser, ils ont la plus grosse documentation disponible, Ender c'est une collection de petits scripts, un spécial Ajax, un spécial requêtes CSS, un spécial manipulation DOM, ça vous permet de charger uniquement ce dont vous avez besoin et d'avoir un code Javascript minimaliste, Zepto si je puis me permettre c'est le jQuery light, c'est pas 100% les mêmes fonctions, mais ça peut vous aider.
 
-Ce que nous avons fait au final, si vous avez compris donc, c'est de créer notre propre framework car il n'y en a aucun qui fait tous les devices, il est basé sur backbone.js et require.js, il est sur Github, il est opensource, il est sous licence MIT mais il manque de documentation, c'est pour ça que je ne vous conseille pas de l'utiliser, c'est un projet interne opensource mais sans documentation, c'est pas un vrai projet opensource on est d'accord, à moins que vous soyez vraiment curieux, très compétent pour lire du code écrit par d'autres, mais je vous conseille d'attendre un peu ou de créer votre propre framework. (42:40) 
+Ce que nous avons fait au final, si vous avez compris donc, c'est de créer notre propre framework car il n'y en a aucun qui fait tous les devices, il est basé sur backbone.js et require.js, il est sur Github, il est opensource, il est sous licence MIT mais il manque de documentation, c'est pour ça que je ne vous conseille pas de l'utiliser, c'est un projet interne opensource mais sans documentation, c'est pas un vrai projet opensource on est d'accord, à moins que vous soyez vraiment curieux, très compétent pour lire du code écrit par d'autres, mais je vous conseille d'attendre un peu ou de créer votre propre framework. 
+
+Du coup comme je vous ai dit, une application par famille et chaque famille a ses propres contraintes et ses propres inconvénients. 
+
+Téléphone et tablettes, nous utilisons PhoneGap/Cordova.
+
+Par curiosité dans la salle, qui a déjà utilisé PhoneGap ?
+
+OK, pas tant de monde que ça.
+
+C'est le meilleur outil pour faire des applications hybrides, malheureusement il ne fonctionne qu'avec tablettes et téléphones actuellement
+
+Il permet de créer une webview en plein écran sur téléphone/tablette, d'avoir les mêmes fonctionnalités disponibles pour accéder à ces fameux capteurs, à ce fameux appareil photo, les capteurs de luminosité et surtout il dispose d'un système de plugins qui permet d'augmenter les fonctionnalités disponibles en Javascript, toutes celles qui sont disponibles dans le SDK officiel seront disponibles dans PhoneGap et du coup accessibles en Javascript.
+
+Les fonctionnalités sont faites en fonction du … enfin le nom des fonctions en fait en fonction des spécifications du W3C, c'est pour ça que nous avons choisi PhoneGap, il existe des concurrents, mais nous avons aimé cette démarche, on va dire open-source et assez éthique d'utiliser W3C, même si les noms de fonctions risque de changer avec l'arrivée de Boot to Gecko. Mozilla qui a aussi pas mal d'expérience dans la création de fonctions pour accéder aux fonctionnalités et aux capteurs de votre téléphone et avec leur expérience du coup, ils vont faire évoluer la spécification. 
+
+Je vous encourage à participer vous mêmes à la création d'applications de démonstration pour Boot to Gecko, pour PhoneGap, c'est quand les développeurs utilisent ces fonctions que l'on peut faire avancer les choses.
+
+Un exemple simple, c'est du coup l'objet navigator, qui est disponible dans votre application web, navigator.camera.getPicture et c'est parti vous avez l'application de prise de photo qui apparait et vous récupérez directement une image.
+
+Le debug sur mobile peut vous intéresser, si vous faîtes des applications hybrides comme nous, ou pas. 
+
+Qui connait Weinre ?
+
+Trop peu de personnes, trop trop peu de personnes. C'est vraiment l'outil indispensable, si vous le connaissez pas il vous manque quelque chose dans votre développement mobile.
+
+Grosso-modo c'est l'inspecteur qu'il y a dans Safari et dans Chrome, en standalone, tout seul
+
+Vous le téléchargez sur site soit en version Java, soit vous pouvez utiliser Node en faisant npm install weinre, vous lancez votre application et là vous avez une seule chose à faire, copier-coller un seul code script dans votre application, c'est tout et ensuite vous ouvrez par exemple localhost:8081 sur votre navigateur Safari/Webkit et vous avez le webkit inspector qui vous permet donc d'inspecter le code qui est en train de tourner sur un autre mobile, sur un autre device, quel qu'il soit, même une TV par exemple, la seule contrainte c'est qu'elle tourne sur Webkit, c'est à dire que c'est pas la solution parfaite, dans le sens où on est bloqué à WebKit mais c'est déjà pas mal. 
+
+Pour ceux qui sont pas très à l'aide avec la ligne de commande ou les fichiers Java, il existe aussi deux solutions basées sur Weinre mais un petit peu plus grand public, c'est Adobe Shadow et iWebInspector, sachant qu'iWebInspector n'est que pour Mac mais Adobe Shadow est disponible multi-plateforme.
+
+J'aimerai bien vous faire un exemple rapide parce qu'il existe 
+
+Pour ceux qui sont encore plus fainéants (il y a le wifi ou pas ? OK) 
+
+http://debug.phonegap.com
+
+Il est HS, parfait ;)
+
+Bon vraiment dommage, retenez juste une chose parce que j'aurais pu faire une démo intéressante, c'est que quand vous arrivez sur ce site, il y a ce qu'on va appeler un GUID, il y a une chaine de caractères qui se met en complément de votre script SRC, n'oubliez pas de la changer, si vous utilisez debug.phonegap.com, n'oubliez pas de changer cette chaîne et qu'elle soit propre à vous parce que le problème c'est que si vous laissez celle par défaut, n'importe qui qui ira sur ce site aura accès à votre session que vous êtes en train de débugguer, et du coup c'est dommage, ça m'arrive de temps en temps d'y aller de cliquer sur le lien par défaut avec la chaine par défaut de voir que effectivement y'a un code HTML et là la petite blague que vous pouvez faire c'est aller dans la console et taper des alert() ou supprimer des éléments HTML, CSS et du coup la personne qui est à l'autre bout de la terre, en train de développer son application, elle reçoit plein de messages ou elle voit une partie du code disparaître, donc n'oubliez pas si jamais ça vous arrive quand vous utilisez debug.phonegap.com, c'est que quelqu'un a trouvé votre chaîne de caractères qui doit vous être propre.
+
+Un mot sur les évènements touch qui ne sont pas que pour les téléphones et les tablettes mais aussi pour les ordinateurs desktop, notamment avec l'arrivée de Windows 8. 
+
+Euh, je ne sais pas si vous avez remarqué que dans Chrome, dans le webkit inspector (je sais pas si on va voir) tout en bas à droite dans le webkit inspecter il y a une petite roue dentée, vous l'ouvrez et vous avez une option pour émules les touch évents.
+
+Donc j'arrive sur un site fait par nos amis d'Opera
+
+Donc là il y a tout une série d'images que nous ne pouvons pas déplacer, ça c'est juste un artefact on est pas en train de déplacer l'image, parce que ce site ne répond qu'aux touch évents, vous activez dans Chrome les touch évents, et vous pouvez les tester sans aucun problème.
+
+Il existe un autre outil pour ça, oops
+
+Je vais pas pouvoir vous le montrer c'est un bookmarklet, je vous invite à aller le voir ça s'appelle TouchDevTools, ça vous permet d'aller plus loin que ce que je vous ai montré avec Chrome puisqu'on peut simuler deux doigts sur n'importe quel navigateur, on peut simuler les touch évents à deux doigts voire plus, et surtout du coup le pinch and zoom et la rotation dans n'importe quel navigateur.
+
+C'est un français qui a fait ça, Louis-Rémi Babé, si vous le connaissez pas il fait plein d'outils géniaux comme ça.
+
+Un petit mot aussi sur les touch events dans le sens où l'implémentation du W3C est basée sur l'implémentation qu'Apple a sorti avec son iPhone, malheureusement tous les navigateurs dont Opera, Mozilla, Chrome se sont mis à implémenter la même spec et Apple est arrivé et a dit : non non on a des brevets dessus donc pour l'instant la spec est bloquée au W3C, et Microsoft eux sont en train de sortir une autre spec qui est à mes yeux totalement différente mais bien mieux pensée
+
+Il y a un seul objet qui s'appelle MSPointerEvent qui sera surement plus préfixé pour rester PointerEvent mais qui regroupe en une seule fois les stylets, les touch et la souris. Il vous reste plus qu'une chose à faire, c'est pousser les gens de chez Microsoft à mettre cette spec au W3C pour qu'elle devienne un standard à la place de l'autre, hein les gens de Microsoft ?
+
+On y travaille, parfait.
+
+Un petit mot sur les télés, c'est quand même le seul type de devise particulier où on connait le contexte, je veux dire le mobile vous pouvez l'utiliser en situation de déplacement et on l'utilise surtout en Wi-Fi ou boulot ou à la maison, la télé on l'utilise pas en déplacement, on l'utilise sur son canapé chez soi, y'a pas de souci, c'est surtout pour les jeux vidéos, c'est surtout pour les applications vidéos et ça va pas beaucoup plus loin, ça devient rapidement frustrant de lire du texte surtout s'il est pas assez gros, donc c'est un domaine bien à part qui en plus se pilote très souvent rien qu'au clavier et pas à la souris.
+
+Il vous suffit d'écouter les évènements du clavier, touche vers le haut, touche vers le bas, y'a rien de sorcier au niveau du code mais par contre il faut penser dès le début à afficher une grand police et à écouter le clavier.
+
+Le problème aussi c'est comment détecter une télé ? Voilà un des problème du responsive webdesign c'est qu'on peut pas facilement détecter une télé parce que c'est les mêmes caractéristiques grosso-modo qu'un iMac ou certaines tablettes maintenant au niveau de la résolution et rien ne nous permet de nous dire ah je suis sur une télé donc souvent c'est une application faite à part, même cette technique d'utiliser un média particulier ne suffit pas parce que la majorité des navigateurs voir aucun des navigateurs ne supporte le média type TV ils exécutent uniquement le média type screen donc on est pas avancé et on peut même pas faire de user agent sniffing parce que voici celui par exemple d'une smartTV LG 2012, il y a absolument rien, rien qui nous indique que c'est une smartTV, LG, 2012, que c'est une télé.
+
+Donc pas d'autre solution que d'avoir une URL particulière par exemple ou d'avoir une application séparée. Pas de PhoneGap like non plus donc c'est à chaque télé, on peut faire une application toujours Web mais à chacune il faut s'adapter.
+
+Sur Samsung pendant très longtemps c'était un équivalent de Firefox 2, j'espère qu'avec 2012 ils ont changé leur navigateur, Philipps c'est très bien, c'est un Opera, c'est moderne, LG c'est WebKit, je voulais vous montrer que même sur télé le développement est sacrément à adapter sur chaque plateforme mais on peut faire du web, on peut utiliser des technos web pour faire des applications. GoogleTV, c'est un Google Chrome, ne pas oublier le tag gtv-auto-zoom sinon il décide d'augmenter la taille de votre texte par défaut et de casser le design de votre application.
+
+Desktop, peu de solution, QTWebKit c'est la solution pour faire une application Windows, Mac, Linux avec des technologies web.
+Heureusement les clients ne nous le demandent pas très souvent donc on va pas trop se plaindre mais QTWebKit ou Air éventuellement ce sont les meilleurs solutions et MacGap pour Mac seulement.
+
+Le projet peut-être le plus intéressant mais je l'ai gardé pour la fin parce que c'est difficile de faire 40 minutes dessus, ces fameux objets ambiants, c'est les objets qui sortent de l'ordinaire ou alors qui n'ont pas d'interface graphique.
+
+Donc nous utilisons beaucoup de circuits déjà par d'autres sociétés comme l'Arduino dont vous avez déjà peut-être entend parler, ou l'openPicus qui est beaucoup moins connu.
+
+Le problème de l'Arduino, c'est que s'il est pas cher et facile à programmer par défaut il ne vient ni avec le Wi-Fi ni avec éthernet alors qu'openPicus c'est un concurrent qui vient avec au moins un port ethernet et qui permet de le connecter au réseau dès le début.
+
+Ces devices sont en général très idiots, on peut pas faire grand chose dessus mais ils peuvent faire des requêtes HTTP, c'est à dire que grosso-modo ils ne font pas tourner les technologies web mais ils discutent avec un autre serveur, tous nos serveurs sont fait en nodeJS évidemment on utilise toujours les mêmes technologies le javascript, et via des requêtes HTTP ces devices réagissent au toucher, réagissent à la lumière, réagissent parfois même à d'autres requêtes en GET où ils vont chercher des donnée sur Internet, font leur petit ? et renvoient ça au serveur nodeJS.
+
+BeagleBone c'est aussi quelque chose qui peut vous intéresser si vous êtes un développeur web. (55:06)
+
