@@ -1,4 +1,78 @@
-… et les civilisations anciennes, enfin les anciens développeurs m'ont laissé des petites traces sous forme de commentaires et c'est souvent assez rare.
+... j'ai toujours rêver de faire Lady Gaga c'est super
+
+donc bonjour, je démarre ce matin
+
+un insigne honneur
+
+ah le micro, déjà cinq secondes de perdues
+
+donc ce matin je vais vous présenter en fait
+
+donc la première conférence
+
+C'est quoi un lead developer ?
+
+Je voulais essayer de vous renseigner
+
+le plus possible sur le métier que je fais actuellement
+
+Donc je me présente j'ai 33 ans
+
+(coupure de son)
+
+les goulets d'étranglements qu'on trouve sur les sites internet
+
+ou bien de tester et résoudre les problèmes de compatibilité
+
+entre les navigateurs
+
+mais également pour éviter d'intervenir trop souvent en situation de risque
+
+ben je préviens les risques et les accidents
+
+mes outils à moi c'est les tests unitaires
+
+les tests fonctionnels
+
+et le tout sur des plateformes d'intégration continue
+
+mais l'autre partie aussi c'est que en tant que lead developer
+
+j'éduque sur la prévention et les dangers
+
+non seulement j'identifie les problèmes qui sont arrivés
+
+mais au près des équipes, auprès des intégrateurs qui utilisent mon produit
+
+je transmet les bonnes pratiques
+
+pour éviter que ça se reproduise
+
+mais en revanche je ne vends pas un calendrier à la fin de l'année
+
+donc je ne passe pas, on a essayé ça n'a pas été très concluant
+
+Comme un archéologue
+
+mon petit plaisir c'est de prendre de temps en temps
+
+ma pelle et mon pinceau
+
+et d'aller sortir du code
+
+d'aller procéder à des excavations de code
+
+c'est à dire d'aller dans les strates pour trouver
+
+ce qui a été développé, comment ça a été développé, etc.
+
+À partir de mes recherches
+
+j'analyse donc ce que j'ai trouvé
+
+et j'essaie d'en découvrir les usages
+
+des fois j'ai de la chance, les civilisations anciennes, enfin les anciens développeurs m'ont laissé des petites traces sous forme de commentaires et c'est souvent assez rare.
 
 Enfin j'essaye moi pour les générations futures de transmettre quelque chose c'est à dire d'inventorier, de commenter et de voir ben là euh je n'ai absolument pas trouvé ce que ça fait, si quelqu'un le trouve, ça sera bien.
 
