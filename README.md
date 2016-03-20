@@ -1,4 +1,13 @@
-# Transcripts Sud Web 2012
+# Transcripts Sud Web
+
+## 2015
+
+- Pas de vue, pas de prix (Bertrand Keller)
+- C'est quoi tes UX tips ? (Marie-Aline Millot)
+- Créez vos objets connectés (Sébastien Pauchet)
+- Histoire d'un board (Anne-Sophie Tranchet)
+
+## 2012
 
 - Mais un lead dev, c’est quoi ? (Brice Favre)
 - L’Open Web en tant que pierre angulaire du développement multi-objets (Thomas Bassetto)
@@ -20,7 +29,7 @@
 
 ## License
 
-> Copyright © 2012 Sud Web
+> Copyright © 2016 Sud Web
 >
 > This program is free software: you can redistribute it and/or modify
 > it under the terms of the GNU General Public License as published by
