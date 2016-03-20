@@ -1,0 +1,307 @@
+Bonjour, je vais casser un peu l'ambiance, je vais mettre des slides un peu noirs
+
+Et je vais arrêter de parler de petits dessins, d'aquarelles, je vais vous parler de choses vraiment intéressantes
+
+Ouais, je vais parler de pognon ouais
+
+ça vous intéresse un peu hein ? C'est vachement bien.
+
+Mais je vais pas vous parler juste de pognon, je vais vous parler d'encaissement
+
+Alors l'encaissement pour moi, c'est un 
+sentiment voyez quand je reçois le chèque du client qui arrive
+
+Comment dire ? Parfois ça se passe bien, je me dis je suis content je suis bien payé
+
+parfois c'est un peu plus douloureux, vous voyez ?
+	
+
+C'est un peu dur ça prend des semaines 
+à s'en remettre, etc.
+
+Alors pour évoquer ça, je vais vous parler
+de cette histoire du client qui arrive
+
+et qui vous dit j'ai un projet, 
+tu seras payé tant
+
+mais t'inquiète pas ça va prendre 3 jours.
+
+Vous le connaissez celui-là ?
+
+Alors vous faites la première mission
+
+hein, tiens 5 jours.
+
+C'est un petit peu long, c'est pas grave
+
+Il va vous demander d'autres missions
+
+du coup je vais me rattraper sur les suivantes
+
+Alors en fait la deuxième et la troisième 
+mission 5 jours aussi.
+
+Puis on se dit, qu'est-ce que je peux faire ?
+
+Je me pose la question : 
+Qu'est-ce que ne va pas ?
+
+Et là je me dis :
+
+Le client a décidé du périmètre et du prix
+
+C'est donc une arnaque.
+
+Quand je suis dans ce cas là en fait
+
+j'ai les pieds et les poings liés
+
+Je suis un peu bloqué
+
+Je me dis, tiens je vais aller sur les projets
+
+classiques sur lesquels c'est plus équilibré
+
+Le client file un cahier des charges,
+
+et vous vous allez donner un prix
+
+Dans ce genre de projet comme vous le savez
+
+à la fin du projet le cahier 
+des charges a changé
+
+par contre le prix il a pas changé
+
+Donc là je me dis
+ça ressemble aussi à une arnaque
+
+Les gens vont me dire : 
+mais non y'a pas d'arnaque
+
+vous pouvez me faire un avenant
+
+le fameux avenant
+si facile à demander au client
+
+ou vous pouvez faire valoir des CGV
+
+	
+
+ah non c'est pas là, regardez telle ligne.
+
+Mais moi ça m'intéresse pas
+
+parce qu'en fait je fais des petits projets
+
+je suis freelance, je suis intégrateur
+
+j'essaie d'avoir une relation technique
+avec le client
+
+et j'ai pas envie d'avoir une relation
+commerciale
+
+gérer de l'administratif, vérifier tant de factures
+
+rajouter 200 EUR pour corriger trois bugs
+
+ça m'intéresse pas du tout
+
+Donc je me dis que je vais réfléchir sur le prix
+
+Pourquoi je peux pas demander un prix
+plus élevé à mon client ?
+
+Finalement quand on réfléchi le client
+il a pas plus de thunes
+
+donc il peut pas vous en filer plus.
+
+En fait son budget il est pas extensible
+
+son budget il est quand même limité
+quel que soit votre client
+
+à part quelques clients poules aux œufs d'or
+
+dont on rêve tous
+
+donc finalement le prix il est fixe
+
+c'est le budget que fixe le client
+
+Et donc si je veux être libre
+et que je dis que le prix est fixe
+
+donc c'est à moi de définir le cahier des charges
+
+D'accord ?
+
+Donc à partir de là, c'est ma reflexion
+pour être en relation avec mes clients
+
+je me suis dit que j'allais mettre
+des choses en place
+
+donc en vosgien, on se pose cette question
+
+Donc je vais vous faire un retour d'expérience
+sur comment j'ai pratiqué
+
+D'abord je me suis mesuré
+
+ça m'a pris du temps
+sur des projets tout seul
+
+sur des projets à plusieurs
+
+C'est mon indice d'expérience
+
+Donc vous voyez, je fais une journée à 540 EUR
+
+en province ça passe bien
+
+la semaine est à 2000 EUR
+
+ça passe, les clients acceptent généralement
+
+je sais que je ne travaille pas plus de
+six heures intensives sur un projet par jour
+
+parce qu'il faut se reposer
+
+par contre la semaine,
+vu que je répare des vélos, etc.
+
+je fais pas plus de 4 jours
+
+Donc ça, ça me permet de dire à un client, que quand je vais travailler une semaine
+
+c'est à peu près 4 jours,
+
+et quand je lui dis 2000 EUR ou 450 EUR,
+je sais à peu près le temps que ça va me demander
+
+ça me donne une idée globale
+de ce que je vais lui proposer
+
+ça me permet de m'engager avec lui
+
+et pas de lui mentir à la fin en lui
+disant mais non c'est fait en deux deux
+
+en fait je travaille pas plus de six heures
+
+et ensuite
+
+alors je met un titre un peu bizarre
+mais en fait
+
+J'ouvre les considérations
+
+Donc avec lui je vais essayer d'ouvrir
+un peu le projet
+
+de ne pas me limiter à ce qu'il me demandeen besoins
+
+et de lui dire en fait le web
+c'est plus compliqué que tu crois
+
+y'a plein de choses auxquelles
+il faut faire gaffe
+
+et je vais t'en parler, alors : 
+accessibilité, qualité web, performance
+
+c'est hyper important
+
+Ce que je vais essayer de faire en premier
+
+c'est de nouer une relation de confiance
+avec le client
+
+en lui disant que ce qui m'intéresse
+c'est de valoriser son projet
+
+Ensuite ce que je vais faire, c'est que 
+je vais du coup lui dire qu'en fait
+
+le web c'est peut-être compliqué
+mais on peut le faire simplement
+
+et pour pas trop cher
+
+ah ça l'intéresse puisqu'il se dit
+ah je vais avoir plus pour le même budget
+
+donc je vais essayer de savoir
+quels sont les fondamentaux
+
+sur lesquels on doit pas transiger
+
+et le responsabiliser sur les tests
+
+Sur les tests ou sur autre chose
+
+mais il faut que je client ait une action
+dans un Trello ou sur un projet
+
+dans lequel il va déplacer les choses
+
+et c'est lui qui va contrôler
+pour pas que ce soit contrôlé à sa plce
+
+Essayer en fait par ce moyen là, 
+de lui montrer que
+
+ce que vous allez mettre comme 
+processus de tests, de livraison,
+
+d'intégration continue,
+
+en fait c'est lui qui va vérifier, 
+il est intégré au projet
+
+donc ça ça va l'intéresser aussi
+
+Donc je lui propose en gros 
+une stratégie
+
+Je redirige un peu sa demande
+en lui proposant une stratégie
+
+Donc en conclusion de cette présentation
+
+quand on vous demande :
+
+Alors ça coûte combien un site web ?
+
+Question à laquelle il est dur de répondre
+
+Faut pas donner de prix
+
+Enfin tant que faire se peut
+
+Et essayer plutôt, comme le prix
+est plus ou moins fixe
+
+pour un prix fixe, quelle serait
+votre stratégie à vous
+
+et c'est le meilleur moyen
+de mettre en valeur vos méthodes
+
+Moi je pratique ça plus ou moins bien
+
+depuis un ou deux ans
+
+Et je vais dire que j'ai des clients
+qui sont plutôt satisfaits
+
+et des projets dont je suis assez fier
+
+et ça c'est une petite victoire
+
+Merci.

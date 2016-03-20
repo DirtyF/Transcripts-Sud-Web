@@ -1,0 +1,132 @@
+Bonjour, je m'appelle Anne-Sophie,
+je travaille chez TEA, une petite startup qui fait du livre numérique
+
+et je vais vous parler de l'histoire de notre board 
+qui a commencé il y a trois ans.
+
+Donc le board c'est un truc qu'on affichait dans notre open-space
+
+dans la salle de pause 
+là où tout le monde peut le voir.
+
+Si je zoome un peu dessus, 
+alors on a l'heure, 
+une valeur sûre à avoir sur nous
+
+On a des compteurs, c'est pas fou, 
+mais c'est motivant quand on passe un cap
+
+et quand c'est devant le patron, 
+il nous paie l'apéro donc c'est cool.
+
+En haut à droite on a les meilleures ventes de la semaine ou du mois
+
+alors c'est un peu déprimant si vous aimez lire parce que c'est du Musso, du Levy ou cinquante nuances de grey.
+
+Au milieu à gauche, c'est la dernière photo qui a été postée sur notre salon, donc c'est souvent des bêtises.
+
+Ensuite on affiche deux courbes chez nous c'est différent les nombres de commandes et les chiffres d'affaire
+
+parce qu'on vend aussi des livres gratuits
+
+Du coup c'est deux courbes qui vont pas toujours corréler
+
+et on en a deux, une en gris clair et une en bleu
+
+c'est pour avoir une feedback sur la semaine passée et la semaine courante
+
+est-ce qu'on est en train d'avoir une bonne semaine
+
+ou une semaine normale ?
+
+Et si c'est déprimant au jour J, c'est parce que nos ventes se font souvent le soir
+
+donc c'est le lendemain qu'on peut voir si la journée a été bonne ou pas
+
+Et notre feature préférée, c'est les dix dernières couvertures des dix derniers livres vendus en temps réél
+
+C'est là qu'on a fait plein de découvertes.
+
+On vend beaucoup d'érotique par exemple et beaucoup entre midi et deux ou à partir de 18 heures
+
+Même si là à 10h, les gens étaient déjà pas mal motivés
+
+Du coup l'idée du board, elle est arrivée très tôt, dès le début de la boîte
+
+surtout par les équipes fonctionnelles, qui n'avaient pas accès à un phpMyAdmin pour faire des requetes
+
+Ils avaient pas trop d'idées sur combien on a de ventes, etc.
+
+Et puis au début dans une start-up c'est pas des choses qu'on commence à monitorer tout de suite
+
+Donc l'idée est arrivée tôt mais la réalisation est arrivée bien plus tard, genre deux ans plus tard
+
+parce que c'était jamais prioritaire, c'est un projet qui était pour nous donc qui rapporte pas d'argent
+
+et du coup en mode start-up on voulait toujours faire plaisir au client
+
+et on pensait pas assez à se faire plaisir, nous.
+
+On s'y est quand même mis un jour en mode side project.
+
+Les développeurs on s'est dit un soir, maximum deux soirs par semaine
+
+on reste une heure et demie, deux heures
+
+la boîte nous paie les pizzas et la bière
+
+et nous on travaille dessus
+
+et là on s'est rendu-compte que ça a mis beaucoup moins de temps à réaliser
+
+que le temps dont on en a parlé
+
+on a du faire ça en trois, quatre mois
+
+un ou deux soirs par semaine
+
+c'était génial pour nous car ça nous a permis de tester des technos comme ça juste pour le fun
+
+c'était une période où on faisait des devs un peu chiants,
+
+alors du coup bosser gratos mais sur un truc qui nous intéresse, ça nous a vachement remotivé
+
+et du coup c'est vraiment passé tout seul, on s'est bien amusé
+
+ça nous a pas empêché d'avoir plusieurs problèmes
+
+le premier c'est quand il a fallu mettre vraiment en ligne dans l'open-space 24/24, 7j/7
+
+on s'est rendu compte qu'il y avait plein de problèmes de fuites mémoire, de problématiques sur l'OS
+
+en fait on s'est rendu compte qu'un side-project c'est bien mais quand on le met en production,
+
+ça devient un projet à part entière qui demande à être entretenu, du coup il faut provisionner du temps dessus
+
+L'autre truc où on a eu du mal, on a fait un truc et pendant deux mois on l'a pas affiché
+
+parce qu'on était pas content, c'était pas responsive, c'était pas ceci, c'était pas celà
+
+honnêtement le responsive sur une télé, on s'en fout
+
+le code il peut être dégueulasse, les gens s'en foutent
+
+et du coup la version que je vous ai montré, c'est la version pas finie
+
+aujourd'hui je sais même plus ce qu'on voulait montrer mais sur le coup on avait du mal à vraiment sortir le bébé
+
+mais du coup aujourd'hui ça marche bien, y'a vraiment un effet d'attroupement
+
+dès qu'il y a une ou deux personnes qui s'arrêtent devant
+
+y'a toute la boîte qui arrive, qu'est-ce que vous regardez ?
+
+des couvertures rigolotes, y'a un pic dans les ventes
+
+on est super fiers de le montrer à tous les gens qui passent dans la boîte, regardez !
+
+Du coup le midi quand on mange, des fois on mange devant ça et puis des fois devant ça (rires)
+
+Merci.
+
+(applaudissements)
